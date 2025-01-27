@@ -3,7 +3,7 @@
 int main() {
     int a;
     printf("");
-    scanf("%s", &a);
+    scanf("%d", &a);
     if ((a >> (sizeof(a) * 8 - 1)) == 1)
         printf("Set");
     if ((a >> (sizeof(a) * 8 - 1)) == 0)
