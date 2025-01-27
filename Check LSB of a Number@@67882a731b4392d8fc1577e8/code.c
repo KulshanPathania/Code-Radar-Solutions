@@ -6,6 +6,6 @@ int main() {
     scanf("%d", &a);
     if (a != a/2)
         printf("Set");
-    else
+    if (a == a/2)
         printf("Not Set");
 }
