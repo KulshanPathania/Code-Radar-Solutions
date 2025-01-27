@@ -4,8 +4,8 @@ int main() {
     int a;
     printf("");
     scanf("%d", &a);
-    if (a != a/2)
+    if ((a & 1) == 1)
         printf("Set");
-    if (a == a/2)
+    if((a & 1) == 0)
         printf("Not Set");
 }
