@@ -5,7 +5,7 @@ int main() {
     printf("");
     scanf("%d %d", &a,&b);
     if (a & (1 << b))
-        printf("%d",b);
+        printf("%d",1);
     else
-        printf("%d",b);
+        printf("%d",0);
 }
