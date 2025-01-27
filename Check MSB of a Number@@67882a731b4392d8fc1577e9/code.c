@@ -5,7 +5,7 @@ int main() {
     printf("");
     scanf("%d", &a);
     if ((a >> (sizeof(a) * 8 - 1)) == 1)
-        printf("Set");
+        printf("Set")
     if ((a >> (sizeof(a) * 8 - 1)) == 0)
         printf("Not Set");
 }
