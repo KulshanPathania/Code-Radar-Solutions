@@ -4,6 +4,6 @@ int main() {
     int a;
     printf("");
     scanf("%d", &a);
-    printf("%d", 32 > a);
+    printf("%d", a & (1 << 31));
     return 0;
 }
