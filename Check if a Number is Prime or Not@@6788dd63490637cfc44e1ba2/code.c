@@ -4,15 +4,16 @@ int main() {
     int a;
     printf("");
     scanf("%d", &a);
+    int isprime = 1;
     for(int i = 2; i < a; i++){
         if(a%i == 0)
             isprime = 0;
             break;
     }
     if(isprime)
-        printf("Prime")
+        printf("Prime");
     else
-        printf("Not Prime")
-        
+        printf("Not Prime");
+
     return 0;
 }
