@@ -16,7 +16,7 @@ int main() {
         if(b != 0)
             printf("%.0f\n", (float)a / b);
         else
-            printf("error")
+            printf("error");
     else
         printf("error");
 }
