@@ -18,4 +18,6 @@ int a;
         printf("Saturday");
     else if(a == 7)
         printf("Sunday");
+    else
+        printf("Invalid")
 }
