@@ -8,7 +8,7 @@ int main() {
         for (int j = n - i ; j < n - i + 1; j++){
             printf("* ");}
             for (int k = 0; k <= n; k++){
-                printf("");}
+                printf("\n");}
     }
         printf("\n");
     return 0;
