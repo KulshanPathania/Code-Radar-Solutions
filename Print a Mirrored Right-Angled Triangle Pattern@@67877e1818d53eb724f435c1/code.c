@@ -9,7 +9,7 @@ int main() {
             printf(" ");
         }
         for (int k = n - i; k < n; k++){
-            printf("*")
+            printf("*");
         }
         
         printf("\n");
