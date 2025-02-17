@@ -8,7 +8,7 @@ int main() {
     for(int i = 2; i < a; i++){
         if(a%i == 0)
             int isprime = 0;
-            break
+            break;
     }
 
     if(isprime)
