@@ -4,10 +4,10 @@ int main() {
     int a;
     printf("");
     scanf("%d", &a);
-    int isprime = 1
+    int isprime = 1;
     for(int i = 2; i < a; i++){
         if(a%i == 0)
-            int isprime = 0
+            int isprime = 0;
             break
     }
 
