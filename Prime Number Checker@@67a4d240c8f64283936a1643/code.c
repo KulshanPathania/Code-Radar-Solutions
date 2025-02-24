@@ -1,5 +1,5 @@
 void isprime (int num){
-    if (prime){
+    if (isPrime){
         printf("%d", 1);
     else{
         printf("%d", 0);
