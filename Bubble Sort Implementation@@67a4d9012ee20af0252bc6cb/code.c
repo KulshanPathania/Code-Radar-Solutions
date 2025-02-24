@@ -7,6 +7,7 @@ int main(){
     scanf("%d", &arr[n]);
     bubbleSort(arr,n);
     for (int i = 1; i < n-1; i++){
-        printf("%d", arr[i])
+        printf("%d", arr[i]);
     }
+    return 0;
 }
