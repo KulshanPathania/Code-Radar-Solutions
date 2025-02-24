@@ -1,12 +1,12 @@
 void isPrime (int num){
-    isprime = 1;
+    int a = 1;
     for (int i = 2; i < num; i++){
         if (a%i == 0){
-            isprime = 0;
+            a = 0;
             break;
         }
     }
-    if (isprime){
+    if (a){
         printf("%d", 1);
     else{
         printf("%d", 0);
