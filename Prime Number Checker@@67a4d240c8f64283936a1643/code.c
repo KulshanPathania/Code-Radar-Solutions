@@ -8,8 +8,9 @@ void isPrime (int num){
     }
     if (a){
         printf("%d", 1);
+    }
     else{
         printf("%d", 0);
     }
-    }
+    
 }
