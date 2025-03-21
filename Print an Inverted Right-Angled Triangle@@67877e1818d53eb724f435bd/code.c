@@ -1,4 +1,4 @@
-# include <stdiou.h>
+# include <stdio.h>
 
 int main(){
     int n;
