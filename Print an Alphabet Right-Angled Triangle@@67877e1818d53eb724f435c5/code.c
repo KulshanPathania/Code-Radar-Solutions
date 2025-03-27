@@ -5,9 +5,9 @@ int main() {
     scanf("%d",&n);
     for(int i = 0; i<n; i++){
         for(int j = n-i; j<=n; j++){
-            switch(i){
+            switch(j){
                 case 1:{
-                    printf("A\n");
+                    printf("A");
                     break;
                 }
                 case 2:{
