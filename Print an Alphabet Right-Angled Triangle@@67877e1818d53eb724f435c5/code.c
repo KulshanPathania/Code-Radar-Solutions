@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     for(int i = 0; i<n; i++){
         for(int j = n-i; j<=n; j++){
-            switch(j){
+            switch(i){
                 case 1:{
                     printf("A");
                     break;
@@ -110,8 +110,7 @@ int main() {
                     printf("Z");
                     break;
                 }
-        }
-            printf(" ");
+            }
         }
         printf("\n");
     }
