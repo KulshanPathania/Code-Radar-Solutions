@@ -12,6 +12,7 @@ int main(){
 
             printf("%d "; k);
         }
+        printf("\n");
     }
     return 0;
 }
