@@ -111,6 +111,7 @@ int main() {
                     break;
                 }
             }
+            printf(" ");
         }
         printf("\n");
     }
