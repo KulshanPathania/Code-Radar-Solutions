@@ -7,7 +7,7 @@ int main() {
         for(int j = n-i; j<=n; j++){
             switch(i){
                 case 1:{
-                    printf("A");
+                    printf("A\n");
                     break;
                 }
                 case 2:{
