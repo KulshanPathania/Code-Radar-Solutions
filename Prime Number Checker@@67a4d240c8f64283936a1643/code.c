@@ -5,7 +5,7 @@ int isPrime (int num){
             break;
         }
     }
-    if (isPrime){
+    if (isPrime(num)){
         printf("%d", 1);
     }  
     else {
