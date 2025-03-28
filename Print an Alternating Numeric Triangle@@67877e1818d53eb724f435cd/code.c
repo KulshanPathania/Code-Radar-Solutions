@@ -89,9 +89,9 @@ int main(){
                     }
                 printf(" ");
                 k++;
+                }
             }
+            printf("\n");
         }
-         printf("\n");
-    }
-    return 0;
+        return 0;
 }
