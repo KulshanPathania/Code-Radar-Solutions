@@ -7,10 +7,9 @@ int isPrime (int num){
         }
     }
     if (isPrime){
-        printf("");
+        printf("prime");
     }
     else {
         printf("%d", 0);
     }
-    return 1;
 }
