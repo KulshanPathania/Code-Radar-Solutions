@@ -6,11 +6,5 @@ int isPrime (int num){
             break;
         }
     }
-    if (isPrime){
-        printf("prime");
-    }
-    else {
-        printf("%d", 0);
-    }
     return 1;
 }
