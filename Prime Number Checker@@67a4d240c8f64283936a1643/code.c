@@ -9,4 +9,5 @@ int isPrime (int num){
     if (isPrime){
         printf("Prime");
     }
+    return 0;
 }
