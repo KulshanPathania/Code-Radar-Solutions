@@ -9,7 +9,7 @@ int findUnsortedSubarray (int arr[],int n){
         }
     }
     for (int i = 0; i < n; i++){
-        int n = sizeof(arr[i])/sizeof(arr[0]);
+        int n = sizeof(arr)/sizeof(arr[0]);
         printf("%d", n);
     }
 }
