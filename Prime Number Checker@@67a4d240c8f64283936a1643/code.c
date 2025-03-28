@@ -9,5 +9,8 @@ int isPrime (int num){
     if (isPrime){
         printf("");
     }
+    else {
+        printf("%d", 0);
+    }
     return 1;
 }
