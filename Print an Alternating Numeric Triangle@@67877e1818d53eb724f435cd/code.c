@@ -3,9 +3,9 @@
 int main(){
     int a = 1;
     int b = 0;
-    int n, k = 1;
+    int n;
     scanf("%d", &n);
-    for (int k){
+    for (int k = 1){
         switch(k){
             case 1:{
                 printf("%d", a);
