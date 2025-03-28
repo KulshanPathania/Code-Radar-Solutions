@@ -8,5 +8,8 @@ int findUnsortedSubarray (int arr[],int n){
             }
         }
     }
-    int n = sizeof(arr[i])/sizeof(arr[0]);
+    for (int i = 0; i < n; i++){
+        int n = sizeof(arr[i])/sizeof(arr[0]);
+        return n;
+    }
 }
