@@ -7,6 +7,6 @@ int isPrime (int num){
         }
     }
     if (isPrime){
-        printf("%d"; isPrime(num));
+        printf("%d", isPrime(num));
     }
 }
