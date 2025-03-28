@@ -8,8 +8,6 @@ int findUnsortedSubarray (int arr[],int n){
             }
         }
     }
-}
-void printArray (int arr[],int n){
     for (int i = 0; i < n; i++){
         printf("%d ", sizeof(arr[i])/sizeof(arr[0]));
     }
