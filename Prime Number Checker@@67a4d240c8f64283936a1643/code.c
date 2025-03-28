@@ -4,7 +4,7 @@ int isPrime (int num){
             return 0;
         }
     }
-    if ( int num = 1){
+    if (num = 1){
         return 0;
     }
     return 1;
