@@ -87,7 +87,7 @@ int main(){
                         printf("%d", 0);
                         break;
                     }
-                printf(" ");
+                printf("%d", k);
                 k++;
                 }
             }
