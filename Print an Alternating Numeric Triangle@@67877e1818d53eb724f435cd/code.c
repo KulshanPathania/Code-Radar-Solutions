@@ -9,7 +9,7 @@ int main(){
         for (int j = 1; j <= i; j++){
             switch(k){
                 case 1:{
-                    printf("%d", a);
+                    printf("%d", b);
                     break;
                 }
                 case 2:{
