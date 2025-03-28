@@ -1,9 +1,16 @@
 int isPrime (int num){
+    int isprime = 1
     for (int i = 2; i < num; i++){
         if (num%i == 0){
-            printf("%d", 0);
+            isprime = 0
+            break;
         }
     }
-   printf("%d", 1);
-    
+    if (isprime){
+        printf("%d", 1);
+    }  
+    else if{
+        printf("%d", 0);
+    }
+    return 0;
 }
