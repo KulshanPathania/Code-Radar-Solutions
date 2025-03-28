@@ -13,11 +13,11 @@ int main(){
                     break;
                 }
                 case 2:{
-                    printf("%d", b);
+                    printf("%d", a);
                     break;
                 }
                 case 3:{
-                    printf("%d", a);
+                    printf("%d", b);
                     break;
                 }
                 case 4:{
