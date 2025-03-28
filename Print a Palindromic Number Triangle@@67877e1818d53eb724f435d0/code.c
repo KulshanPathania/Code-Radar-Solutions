@@ -10,8 +10,10 @@ int main(){
         for (int k = 1; k <= i; k++){
             printf("%d", k);
         }
-        for (int k = i; k >= 2; k--){
-            printf("%d", k);
+        for (int i = 1; i <= n; i++){
+            for (int l = 1; l <= i; j++){
+                printf("%d", l);
+            }
         }
         printf("\n");
     }
