@@ -23,7 +23,7 @@ int findUnsortedSubarray(int arr[], int n) {
     }
 
     // Find min and max in the window
-    int min = arr[left], max = arr[left];
+    int min = arr[left], max = arr[right];
     for (int i = left; i <= right; i++) {
         if (arr[i] < min) min = arr[i];
         if (arr[i] > max) max = arr[i];
@@ -41,7 +41,7 @@ int findUnsortedSubarray(int arr[], int n) {
     while (right < n - 1 && arr[right + 1] < max) {
         right++;
     }
-    while (right < n - 1 && arr[right + 1] == max) {  // Handle duplicates
+    while (right < n - 1 && arr[right] == max) {  // Handle duplicates
         right++;
     }
     printf("%d %d", right, left);
