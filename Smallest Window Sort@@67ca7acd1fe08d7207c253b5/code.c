@@ -1,4 +1,4 @@
-void findUnsortedSubarray(int arr[], int n) {
+int findUnsortedSubarray(int arr[], int n) {
     int left = -1, right = -1;
 
     // Find the left boundary
@@ -45,7 +45,5 @@ void findUnsortedSubarray(int arr[], int n) {
     while (right < n - 1 && arr[right + 1] == max) {  // Handle duplicates
         right++;
     }
-
-    printf("Smallest window that needs sorting: [%d, %d]\n", left, right);
-    printf("Length of the window: %d\n", right - left + 1);
+    printf("%d", right - left + 1);
 }
