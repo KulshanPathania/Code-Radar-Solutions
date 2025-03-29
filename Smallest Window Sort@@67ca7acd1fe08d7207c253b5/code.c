@@ -23,7 +23,7 @@ int findUnsortedSubarray(int arr[], int n) {
     }
 
     // Find min and max in the window
-    int min = arr[left], max = arr[left];
+    int min = arr[left], max = arr[right];
     for (int i = left; i <= right; i++) {
         if (arr[i] < min) min = arr[i];
         if (arr[i] > max) max = arr[i];
