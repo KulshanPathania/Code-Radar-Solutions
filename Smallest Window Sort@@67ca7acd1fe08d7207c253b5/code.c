@@ -1,4 +1,4 @@
-void run (int arr[],int n){
+int findUnsortedSubarray (int arr[],int n){
     int left = 0;
     int right = n - 1;
     while (left < n - 1 && arr[left] <= arr[left + 1]){
@@ -12,11 +12,4 @@ void run (int arr[],int n){
         right--;
     }
     printf("%d", right - left + 1);
-}
-
-int findUnsortedSubarray (){
-    int arr[int n];
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    run (arr, n);
 }
