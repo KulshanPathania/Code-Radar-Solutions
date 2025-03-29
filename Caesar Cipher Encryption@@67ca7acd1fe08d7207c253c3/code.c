@@ -1,5 +1,6 @@
 # include <stdio.h>
 # include <string.h>
+# include <ctype.h>
 
 void caesarCipher (char message[], int shift, char encrypted[]){
     for (int i = 0; message[i] != '\0'; i++){
