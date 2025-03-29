@@ -14,7 +14,7 @@ int main(){
     int arr[n];
     scanf("%d", &n);
     for (int i = 0; i < n; i++){
-        printf("%d ", arr[i]);
+        scanf("%d", &arr[]);
     }
     if (arraysorted(arr, n)){
         printf("Sorted");
