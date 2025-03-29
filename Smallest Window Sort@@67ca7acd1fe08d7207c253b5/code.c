@@ -44,5 +44,5 @@ int findUnsortedSubarray(int arr[], int n) {
     while (right < n - 1 && arr[right + 1] == max) {  // Handle duplicates
         right++;
     }
-    printf("%d", (right - left) + 1);
+    return right - left + 1;
 }
