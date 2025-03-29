@@ -6,6 +6,7 @@ int findUnsortedSubarray (int arr[],int n){
     }
     if (left == n - 1){
         printf("Array is alerady sorted");
+        return;
     }
 
     while (right > 0 && arr[right] <= arr[right - 1]){
