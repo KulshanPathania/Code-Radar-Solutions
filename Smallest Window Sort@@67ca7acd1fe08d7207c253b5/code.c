@@ -36,10 +36,5 @@ int findUnsortedSubarray(int arr[], int n) {
     while (left > 0 && arr[left - 1] == min) {  // Handle duplicates
         left--;
     }
-
-    // Expand right boundary considering repeated values
-    while (right < n - 1 && arr[right + 1] < max) {
-        right++;
-    }
     return right - left + 1;
 }
