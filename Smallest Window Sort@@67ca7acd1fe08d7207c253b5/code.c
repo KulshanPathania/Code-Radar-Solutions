@@ -15,7 +15,7 @@ void run (int arr[],int n){
 }
 
 int findUnsortedSubarray (){
-    int arr[10000];
+    int arr[n];
     int n = sizeof(arr) / sizeof(arr[0]);
 
     run (arr, n);
