@@ -14,7 +14,7 @@ void run (int arr[],int n){
     printf("%d", right - left + 1);
 }
 
-void findUnsortedSubarray (){
+int findUnsortedSubarray (){
     int arr[10000]; 
     int n = sizeof(arr) / sizeof(arr[0]);
 
