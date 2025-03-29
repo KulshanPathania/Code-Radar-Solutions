@@ -1,4 +1,4 @@
-void isprime(int num){
+int isprime(int num){
     if (num < 2){
         return 0;
     }
@@ -13,7 +13,7 @@ void isprime(int num){
 void printPrimesInRange(int a, int b){
     for (int i = a; i <= b; i++){
         if(isprime(i)){
-            printf("%d ", i)
+            printf("%d ", i);
         }
     }
 }
