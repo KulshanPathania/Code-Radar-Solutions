@@ -9,7 +9,7 @@ int findUnsortedSubarray (int arr[],int n){
     }
 
     while (arr[right] <= arr[right - 1]){
-        right++;
+        right--;
     }
     printf("%d", right - left + 1);
 }
