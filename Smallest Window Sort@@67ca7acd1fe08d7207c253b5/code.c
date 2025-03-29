@@ -1,4 +1,4 @@
-void run (int arr[],int n){
+void run (int arr[10000],int n){
     int left = 0;
     int right = n - 1;
     while (arr[left] <= arr[left + 1]){
