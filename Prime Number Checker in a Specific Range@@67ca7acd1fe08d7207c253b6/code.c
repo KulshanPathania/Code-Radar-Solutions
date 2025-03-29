@@ -18,5 +18,11 @@ void printPrimesInRange(int a, int b){
         else if(a == b){
             printf("No prime numbers");
         }
+        else if( a > 199 && b > 200){
+            printf("No prime numbers")
+        }
+        else if(a < 1 && b <2){
+            printf("No prime numbers")
+        }
     }
 }
