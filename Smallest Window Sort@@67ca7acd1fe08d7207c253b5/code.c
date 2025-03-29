@@ -11,8 +11,7 @@ int findUnsortedSubarray(int arr[], int n) {
 
     // If the array is already sorted
     if (left == -1) {
-        printf("The array is already sorted.\n");
-        return;
+        return 0;
     }
 
     // Find the right boundary
