@@ -1,15 +1,15 @@
 int findUnsortedSubarray (int arr[],int n){
-    for (int i = 0; i < n - 1; i++){
-        for (int j = 0; j <= n - i - 1; j++){
-            if (arr[j] > arr[j + 1]){
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
+    int left = 0;
+    int right = n - 1;
+    while (arr[left] <= arr[left + 1]){
+        left++;
     }
-    for (int i = 0; i < n; i++){
-        printf("%d", arr[i]);
+    if (left == n - 1){
+        printf("Array is alerady sorted");
     }
-    int n = sizeof(arr)/sizeof(arr[0]);
+
+    while (arr[right] <= arr[right - 1]){
+        right++;
+    }
+    printf("%d", right - left + 1);
 }
