@@ -13,5 +13,5 @@ int findUnsortedSubarray (int arr[],int n){
         right--;
     }
     printf("%d  ", right);
-    printf("%d", right - left + 1);
+    printf("%d ", right - left + 1);
 }
