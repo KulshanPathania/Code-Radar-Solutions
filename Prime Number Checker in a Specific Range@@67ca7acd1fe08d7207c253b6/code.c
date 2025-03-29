@@ -7,6 +7,7 @@ void isprime(int num){
             return 0;
         }
     }
+    return 1;
 }
 
 void printPrimesInRange(int a, int b){
