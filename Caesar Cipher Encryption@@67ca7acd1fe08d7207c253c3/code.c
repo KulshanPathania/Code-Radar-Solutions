@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-void caesarCipher (char message[100], int shift, char encrypted[100]){
+void caesarCipher (char message[100], int shift, char encrypted){
     for (int i = 0; message[i] != '\0'; i++){
         char ch = message[i];
         int shiftDirection = (encrypted == 'e') ? shift : -shift;
