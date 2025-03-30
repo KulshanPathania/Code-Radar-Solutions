@@ -33,7 +33,7 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
+    printf("%d ", minarray(arr, n));
     printf("%d", maxarray(arr, n));
-    printf("%d", minarray(arr, n));
     return 0;
 }
