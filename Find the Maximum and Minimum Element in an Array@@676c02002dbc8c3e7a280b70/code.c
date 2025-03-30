@@ -22,7 +22,7 @@ int minarray(int arr[], int n){
 
 int printarray(int arr[], int n){
     for(int i = 0; i < n; i++){
-        printf("%d", arr[i]);
+        printf("%d ", arr[i]);
     }
 }
 
