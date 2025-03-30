@@ -20,7 +20,7 @@ int minarray(int arr[], int n){
     return min;
 }
 
-int printarray(int arr[], int n){
+void printarray(int arr[], int n){
     for(int i = 0; i < n; i++){
         printf("%d ", arr[i]);
     }
@@ -35,6 +35,6 @@ int main(){
     }
     printf("%d", maxarray(arr, n));
     printf("%d", minarray(arr, n));
-    printf("%d", printarray(arr, n));
+    printarray(arr, n);
     return 0;
 }
