@@ -2,7 +2,7 @@ void rotatearray(int arr[], int n, int d){
     for (int i = 0; i < d; i++){
         int last = arr[n - 1];
         for (int j = 0; j < n - 1; j++){
-            arr[j] = arr[j + 1];
+            arr[j + 1] = last;
         }
     }
     last = arr[0];
