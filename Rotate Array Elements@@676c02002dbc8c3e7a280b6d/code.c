@@ -4,7 +4,7 @@ void rotatearray(int arr[], int n, int d){
     d = d % n;
     for (int i = 0; i < d; i++){
         int last = arr[n - 1];
-        for (int j = n ; j > 0; j--){
+        for (int j = n - 1 ; j > 0; j--){
             arr[j] = arr[j - 1];
         }
         arr[0] = last;
@@ -12,7 +12,7 @@ void rotatearray(int arr[], int n, int d){
 }
 
 void printarray(int arr[], int n){
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n - 1; i++){
         printf("%d\n", arr[i]);
     }
     printf("\n");
