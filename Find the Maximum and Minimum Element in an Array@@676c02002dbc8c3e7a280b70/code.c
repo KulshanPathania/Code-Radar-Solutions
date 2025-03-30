@@ -35,6 +35,5 @@ int main(){
     }
     printf("%d", maxarray(arr, n));
     printf("%d", minarray(arr, n));
-    printarray(arr, n);
     return 0;
 }
