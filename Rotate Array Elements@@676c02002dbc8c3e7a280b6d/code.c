@@ -13,9 +13,9 @@ void rotatearray(int arr[], int n, int d){
 
 void printarray(int arr[], int n){
     for(int i = 0; i < n ; i++){
-        printf("%d \n", arr[i]);
+        printf("%d\n", arr[i]);
     }
-    printf("\n");
+    printf("");
 }
 
 int main(){
