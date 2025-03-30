@@ -11,7 +11,7 @@ int maxarray(int arr[], int n){
 }
 
 int minarray(int arr[], int n){
-    int min = arr[i - 1];
+    int min = arr[0];
     for(int i = n; i > 1; i--){
         if(arr[i] < min){
             min = arr[i];
