@@ -20,10 +20,9 @@ void printarray(int arr[], int n, int d){
 
 int main(){
     int n;
-    int arr[];
+    int arr[20];
     int d;
-    scanf("%d", &n);
     scanf("%d", &d);
-    rotatearray (arr[], n, d);
-    printarray (arr[], n, d);
+    rotatearray (arr, n, d);
+    printarray (arr, n, d);
 }
