@@ -16,8 +16,9 @@ int main(){
     int arr[n];
     int d;
     scanf("%d", &d);
+    scanf("%d", &arr[i]);
     for (int i = 0; i < n; i++){
-        scanf("%d", &arr[i]);
+        printf("%d", &arr[i]);
     }
     rotatearray (arr, n, d);
 }
