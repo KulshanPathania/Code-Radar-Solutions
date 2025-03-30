@@ -9,6 +9,7 @@ void rotatearray(int arr[], int n, int d){
         }
         arr[0] = last;
     }
+    return last;
 }
 
 void printarray(int arr[], int n){
