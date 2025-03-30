@@ -7,8 +7,8 @@ void rotatearray(int arr[], int n, int d){
         for (int j = n - 1; j < 0; j--){
             arr[j + 1] = arr[j];
         }
+        arr[0] = last;
     }
-    arr[0] = last;
 }
 
 void printarray(int arr[], int n, int d){
