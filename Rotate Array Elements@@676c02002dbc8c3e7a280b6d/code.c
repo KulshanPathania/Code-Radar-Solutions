@@ -16,7 +16,7 @@ int main(){
     int arr[n];
     int d;
     scanf("%d", &d);
-    scanf("%d", &arr[i]);
+    scanf("%d", &arr[]);
     for (int i = 0; i < n; i++){
         printf("%d", &arr[i]);
     }
