@@ -4,7 +4,7 @@ int majorityelement(int arr[], int num){
     int count = 0;
     for (int i = 0; i < n; i++){
         if (arr[i] == num){
-            count ++  
+            count ++;  
         }
     }
 }
