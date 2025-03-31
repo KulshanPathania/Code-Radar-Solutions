@@ -33,7 +33,7 @@ int main(){
             continue;
         }
 
-        printf("%d ", majorityelement(arr, n, arr[i]));
+        printf("%d\n", majorityelement(arr, n, arr[i]));
 
         for(int j = 0; j < n; j++){
             if(arr[i] == arr[j]){
