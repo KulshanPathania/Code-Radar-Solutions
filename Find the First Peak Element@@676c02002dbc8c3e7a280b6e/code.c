@@ -27,4 +27,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     printf("%d", arr[peakelement(arr, n)]);
+    return 0;
 }
