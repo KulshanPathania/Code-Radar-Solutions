@@ -2,7 +2,7 @@
 
 int peakelement(int arr[], int n){
     for(int i = 0; i < n - 1; i++){
-        if (arr[i] > arr[i + 1] && arr[i] > arr[i - 1] && arr[i] != arr [i + 1]){
+        if (arr[i] > arr[i + 1] && arr[i] > arr[i - 1]){
             return i;
         }
     }
@@ -23,6 +23,6 @@ int main(){
     }
 
     if (peakelement(arr, n)){
-        printf("%d", arr[peakelement(arr, n)]);
+        printf("%d", arr[n]);
     }
 }
