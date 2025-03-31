@@ -2,7 +2,7 @@
 
 int secondmax(int arr[], int n){
     if (n < 2){
-        return -2;
+        return -1;
     }
     int max = arr[0];
     int secondmax = -1;
