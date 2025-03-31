@@ -19,14 +19,20 @@ void printarray(int arr[], int n){
 int main(){
     int n;
     scanf("%d", &n);
+    int visited[n];
     int arr[n];
     for (int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
     for (int i = 0; i < n ; i++){
-        for (int j = i; j < n ; j++){
-            printf("%d %d\n", arr[i], frequency(arr, n, arr[i]));
+        if(visited[i] == 1){
+            continue;
         }
+        for (int j = i; j < n ; j++){
+            if(arr[i] == arr[j])
+                visited[j] = 1;
+        }
+        printf("%d %d\n", arr[i], frequency(arr, n, arr[i]));
     }
 
     return 0;
