@@ -33,7 +33,7 @@ int main(){
             continue;
         }
 
-        for(int j = 0; j < n; j++){
+        for(int j = i; j < n; j++){
             if(arr[i] == arr[j]){
                 visible[j] = 1;
             }
