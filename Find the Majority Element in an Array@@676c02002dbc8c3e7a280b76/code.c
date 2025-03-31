@@ -30,7 +30,7 @@ int main(){
 
     for(int i = 0; i < n; i++){
         if(visible[i] == 1){
-            continue;
+            break;
         }
         printf("%d\n", majorityelement(arr, n, arr[i]));
     }
