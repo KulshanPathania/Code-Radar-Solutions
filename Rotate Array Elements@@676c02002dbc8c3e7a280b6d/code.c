@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void rotatearray(int arr[], int n, int d){
-    d = d % n;
     for (int i = 0; i < d; i++){
         int last = arr[n - 1];
         for (int j = n - 1 ; j > 0; j--){
