@@ -6,7 +6,7 @@ int secondmax(int arr[], int n){
     }
 
     int max = arr[0];
-    int secondmax = -20;
+    int secondmax = -1;
     for (int i = 0; i < n; i++){
         if(arr[i] > max){
             max = arr[i];
