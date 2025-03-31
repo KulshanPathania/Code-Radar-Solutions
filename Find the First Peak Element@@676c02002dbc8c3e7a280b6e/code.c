@@ -23,6 +23,6 @@ int main(){
     }
 
     if (peakelement(arr, n)){
-        printf("%d", arr[peakelement(arr, n)]);
+        printf("%d", peakelement(arr, n));
     }
 }
