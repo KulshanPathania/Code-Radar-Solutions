@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int peakelement(int arr[], int n){
-    int same = 1
+    int same = 1;
     for (int i = 1; i < n; i++){
         if(arr[i] != arr[0]){
-            same = 0
+            same = 0;
             break;
         }
     }
