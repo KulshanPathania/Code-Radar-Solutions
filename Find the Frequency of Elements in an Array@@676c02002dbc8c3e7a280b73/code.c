@@ -25,7 +25,7 @@ int main(){
     }
 
     for (int i = 0; i < n ; i++){
-        printf("%d %d\n", arr[i], frequency(arr, n, num));
+        printf("%d %d\n", arr[i], frequency(arr, n, arr[i]));
     }
     return 0;
 }
