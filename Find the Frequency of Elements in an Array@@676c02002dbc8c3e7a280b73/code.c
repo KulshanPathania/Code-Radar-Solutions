@@ -24,6 +24,6 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
-    printf("%d %d\n", arr[n], frequency(arr, n));
+    printf("%d %d\n", arr[i], frequency(arr, n));
     return 0;
 }
