@@ -23,11 +23,6 @@ int main(){
     for (int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-
-    for (int i = 0; i < n ; i++){
-        for (int j = i; j < n ; j++){
-            printf("%d %d\n", arr[i], frequency(arr, n, arr[i]));
-        }
-    }
+    printf("%d %d\n", arr[n], frequency(arr, n, arr[i]));
     return 0;
 }
