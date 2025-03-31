@@ -32,6 +32,6 @@ int main(){
     for(int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-    printf("%d", peakelement(arr, n));
+    printf("%d\n", peakelement(arr, n));
     return 0;
 }
