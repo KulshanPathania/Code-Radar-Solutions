@@ -2,7 +2,7 @@
 
 int secondmax(int arr[], int n){
     if (n < 2){
-        return -1;
+        return -2;
     }
     int max = arr[0];
     int secondmax = -1;
@@ -33,4 +33,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     printf("%d", secondmax(arr, n));
+    
 }
