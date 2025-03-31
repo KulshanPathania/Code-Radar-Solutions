@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int frequency(int arr[], int n){
+int frequency(int arr[], int n, int num){
     int count = 0;
     for (int i = 0; i < n; i++){
-        if (arr[i] == arr[i - 1]){
+        if (arr[i] == num){
             count += 1;
         }
     }
