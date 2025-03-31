@@ -9,7 +9,7 @@ int majorityelement(int arr[], int n, int num){
         }
     }
     if (same){
-        return i;
+        return arr[n];
     }
 }
 
