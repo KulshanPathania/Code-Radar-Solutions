@@ -30,7 +30,13 @@ int main(){
 
     for(int i = 0; i < n; i++){
         if(visible[i] == 1){
-            break;
+            continue;
+        }
+        for(int j = i; j < n; j++){
+            if(arr[j] == arr[i]){
+                visible[j] = 1;
+                break;
+            }
         }
         printf("%d\n", majorityelement(arr, n, arr[i]));
     }
