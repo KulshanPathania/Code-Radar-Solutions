@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int majorityelement(int arr[], int n, int num){
+int majorityelement(int arr[], int n){
     int same = 1;
     for (int i = 0; i < n; i++){
         if (arr[i] == arr[0]){
@@ -37,7 +37,7 @@ int main(){
                 visible[j] = 1;
             }
         }
-        printf("%d\n", majorityelement(arr, n, arr[i]));
+        printf("%d\n", majorityelement(arr, n));
     }
     return 0;
 }
