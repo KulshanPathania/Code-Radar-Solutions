@@ -1,5 +1,5 @@
 int evenodd(int arr[], int n){
-    int count = 0
+    int count = 0;
     for (int i = 0; i < n - 1; i++){
         if (arr[i]%2 == 0){
             count += 1;
@@ -9,7 +9,7 @@ int evenodd(int arr[], int n){
 }
 
 int odd(int arr[], int n){
-    int count = 0
+    int count = 0;
     for (int i = 0; i < n - 1; i++){
         if (arr[i]%2 != 0){
             count += 1;
