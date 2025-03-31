@@ -12,7 +12,7 @@ int rotatearray(int arr[], int n, int d){
 
 void printarray(int arr[], int n){
     for (int i = 0; i < n; i++){
-        printf("%d", arr[i]);
+        printf("%d ", arr[i]);
     }
 }
 
@@ -21,7 +21,7 @@ int main(){
     scanf("%d", &n);
     int arr[n];
     for (int i = 0; i < n; i++){
-        scanf("%d ", &arr[i]);
+        scanf("%d", &arr[i]);
     }
     int d;
     scanf("%d", &d);
