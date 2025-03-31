@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int majorityelement(int arr[], int num){
+int majorityelement(int arr[], int n, int num){
     int count = 0;
     for (int i = 0; i < n; i++){
         if (arr[i] == num){
