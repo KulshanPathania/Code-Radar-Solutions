@@ -25,6 +25,6 @@ int main(){
     }
     int d;
     scanf("%d", &d);
-    printf("%d", rotatearray(arr, n, d));
+    printf("%d ", rotatearray(arr, n, d));
     printarray(arr, n);
 }
