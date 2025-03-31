@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int majorityelement(int arr[]; int n){
+int majorityelement(int arr[], int n, int num){
     for (int i = 0; i < n - 1; i++){
-        if (arr[0] == arr[i]){
+        if (arr[i] == num){
             return i;
         }
     }
@@ -28,7 +28,7 @@ int main(){
             continue;
         }
 
-        printf("%d", arr[i]);
+        printf("%d", majorityelement(arr, n, arr[i]));
 
         for(int j = 0; j < n; j++){
             if(arr[i] == arr[j]){
