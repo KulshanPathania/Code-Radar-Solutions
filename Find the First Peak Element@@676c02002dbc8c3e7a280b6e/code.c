@@ -17,6 +17,7 @@ int peakelement(int arr[], int n){
             return i;
         }
     }
+    return -1;
 }
 
 void printarray(int arr[], int n){
