@@ -24,6 +24,6 @@ int main(){
     }
 
     if (peakelement(arr, n)){
-        printf("%d", arr[i]);
+        printf("%d", arr[peakelement(arr, n)]);
     }
 }
