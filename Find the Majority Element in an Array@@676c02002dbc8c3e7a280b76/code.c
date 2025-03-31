@@ -33,7 +33,7 @@ int main(){
                 visible[j] = 1;
             }
         }
-        printf("%d\n", majorityelement(arr, n));
+        printf("%d\n", majorityelement(arr, n, arr[i]));
     }
     return 0;
 }
