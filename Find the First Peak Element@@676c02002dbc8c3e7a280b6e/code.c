@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 int peakelement(int arr[], int n){
+    int same = 1
     for (int i = 1; i < n; i++){
         if(arr[i] != arr[0]){
+            same = 0
             break;
         }
     }
-    return -1;
+    if(same){
+        return -1;
+    }
 
     for(int i = 0; i < n - 1; i++){
         if (arr[i] > arr[i + 1] && arr[i] > arr[i - 1]){
