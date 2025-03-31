@@ -29,7 +29,7 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if(visible[i] = 1){
+        if(visible[i] == 1){
             continue;
         }
 
@@ -37,7 +37,7 @@ int main(){
 
         for(int j = 0; j < n; j++){
             if(arr[i] == arr[j]){
-                visible[j] == 1;
+                visible[j] = 1;
             }
         }
     }
