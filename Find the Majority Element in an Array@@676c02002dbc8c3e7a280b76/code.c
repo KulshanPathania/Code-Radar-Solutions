@@ -32,12 +32,6 @@ int main(){
         if(visible[i] == 1){
             continue;
         }
-
-        for(int j = i; j < n; j++){
-            if(arr[j] == arr[i]){
-                visible[j] = 1;
-            }
-        }
         printf("%d\n", majorityelement(arr, n, arr[i]));
     }
     return 0;
