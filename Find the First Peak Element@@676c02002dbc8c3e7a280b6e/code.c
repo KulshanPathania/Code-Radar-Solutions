@@ -5,9 +5,6 @@ int peakelement(int arr[], int n){
         if (arr[i] > arr[i + 1] && arr[i] > arr[i - 1]){
             return i;
         }
-        else if (arr[i] = arr[i + 1]){
-            return -1;
-        }
     }
 }
 
@@ -26,9 +23,6 @@ int main(){
     }
 
     if (peakelement(arr, n)){
-        printf("%d", arr[peakelement(arr, n)]);
-    }
-    else {
         printf("%d", arr[peakelement(arr, n)]);
     }
 }
