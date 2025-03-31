@@ -1,15 +1,11 @@
 #include <stdio.h>
 
-int majorityelement(int arr[], int n){
-    int same = 1;
+int majorityelement(int arr[], int num){
+    int count = 0;
     for (int i = 0; i < n; i++){
-        if (arr[i] == arr[0]){
-            same = 0;
-            break;
+        if (arr[i] == num){
+            count ++  
         }
-    }
-    if (same){
-        return arr[n];
     }
 }
 
