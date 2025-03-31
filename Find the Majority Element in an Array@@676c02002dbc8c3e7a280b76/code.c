@@ -24,6 +24,16 @@ int main(){
     }
 
     for(int i = 0; i < n; i++){
-        if(visible = 1)
+        if(visible[i] = 1){
+            continue;
+        }
+
+        printf("%d", arr[i]);
+
+        for(int j = 0; j < n; j++){
+            if(arr[i] == arr[j]){
+                visible[j] == 1;
+            }
+        }
     }
 }
