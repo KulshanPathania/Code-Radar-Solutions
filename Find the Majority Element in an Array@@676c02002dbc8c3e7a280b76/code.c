@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int majorityelement(int arr[], int n, int num){
-    int same = 1
+    int same = 1;
     for (int i = 0; i < n - 1; i++){
         if (arr[i] == num){
             same = 0;
