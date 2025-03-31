@@ -32,7 +32,7 @@ int main(){
             if(arr[i] == arr[j])
                 visited[j] = 1;
         }
-        printf("%d %d\n", arr[i], frequency(arr, n, arr[i]));
+        printf("%d %d\n", arr[i], frequency(arr, n, count));
     }
 
     return 0;
