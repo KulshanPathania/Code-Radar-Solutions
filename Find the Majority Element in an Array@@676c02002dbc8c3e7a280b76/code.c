@@ -33,13 +33,12 @@ int main(){
             continue;
         }
 
-        printf("%d\n", majorityelement(arr, n, arr[i]));
-
         for(int j = 0; j < n; j++){
             if(arr[i] == arr[j]){
                 visible[j] = 1;
             }
         }
+        printf("%d\n", majorityelement(arr, n, arr[i]));
     }
     return 0;
 }
