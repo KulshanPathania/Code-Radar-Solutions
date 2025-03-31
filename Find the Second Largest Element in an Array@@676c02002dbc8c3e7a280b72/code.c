@@ -4,13 +4,7 @@ int secondmax(int arr[], int n){
     if (n < 2){
         return -1;
     }
-    for (int i = 0; i < n; i++){
-        if(arr[i] == arr[0]){
-            break;
-        }
-    }
-    return -1;
-    
+
     int max = arr[0];
     int secondmax = -20;
     for (int i = 0; i < n; i++){
