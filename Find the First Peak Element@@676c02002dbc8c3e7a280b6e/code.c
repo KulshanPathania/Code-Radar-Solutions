@@ -21,7 +21,7 @@ int main(){
         scanf("%d", &arr[i])
     }
 
-    if (peakelement(int arr[], int n)){
-        
+    if (peakelement(arr, n)){
+        printf("%d", arr[i]);
     }
 }
