@@ -15,7 +15,7 @@ void sortarray(int arr[], int n){
 int binarySearch(int arr[], int n, int target){
     sortarray(arr, n);
     int search = target - 1;
-    return search;
+    return i;
 }
 
 void printarray(int arr[], int n){
