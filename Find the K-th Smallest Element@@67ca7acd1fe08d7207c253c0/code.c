@@ -15,7 +15,7 @@ void sortarray(int arr[], int n){
 
 int kthSmallest(int arr[], int n, int k){
     sortarray(arr, n);
-    if (k >= n){
+    if (k > n){
         return -1;
     }
     return arr[k - 1];
