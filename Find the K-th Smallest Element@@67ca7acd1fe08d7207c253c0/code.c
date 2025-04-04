@@ -10,7 +10,7 @@ int kthSmallest(int arr[], int n, int k){
     return 0;
 }
 
-void (int arr[], int n){
+void printarray(int arr[], int n){
     for(int i = 0; i < n; i++){
         printf("%d", arr[i]);
     }
