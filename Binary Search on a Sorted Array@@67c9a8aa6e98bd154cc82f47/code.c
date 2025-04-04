@@ -13,12 +13,12 @@ void sortarray(int arr[], int n){
 }
 
 int binarySearch(int arr[], int n, int target){
-    for(int i = 0; i < n; i++){
-        if(sortarray(arr, n)){
-            target = arr[i];
+    for (int i = 0; i < n; i++){
+        if (arr[i] == target){
             return i;
         }
     }
+    return -1;
 }
 
 void printarray(int arr[], int n){
