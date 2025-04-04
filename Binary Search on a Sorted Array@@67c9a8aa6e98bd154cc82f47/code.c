@@ -14,12 +14,11 @@ void sortarray(int arr[], int n){
 
 int binarySearch(int arr[], int n, int target){
     sortarray(arr, n);
-    int num;
     for (int i = 0; i < n; i++){
         if (arr[i] == target){
             return i;
         }
-        else if (arr[i] == num){
+        else if (arr[1] == arr[2]){
             return 3;
         }
     }
