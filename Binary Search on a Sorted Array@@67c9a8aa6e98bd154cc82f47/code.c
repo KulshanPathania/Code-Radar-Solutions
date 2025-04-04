@@ -18,6 +18,7 @@ int binarySearch(int arr[], int n, int target){
         target = arr[i];
         return i;
     }
+    return 0;
 }
 
 void printarray(int arr[], int n){
