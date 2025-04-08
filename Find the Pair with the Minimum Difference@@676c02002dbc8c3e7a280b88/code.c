@@ -45,4 +45,5 @@ int main(){
         scanf("%d", &arr[i]);
     }
     printf("%d", mindiff(arr, n));
+    return 0;
 }
