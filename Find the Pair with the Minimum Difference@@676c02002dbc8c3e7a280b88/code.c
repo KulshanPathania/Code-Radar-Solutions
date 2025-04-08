@@ -36,7 +36,6 @@ int mindiff(int arr[], int n){
     }
 
     printf("%d %d\n", a, b);
-    return min;
 }
 
 int main(){
