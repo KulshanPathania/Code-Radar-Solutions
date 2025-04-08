@@ -44,5 +44,5 @@ int main(){
     for (int i = 0; i < n; i++){
         scanf("%d", &arr[i]);
     }
-    printf("%d", mindiff(arr, n))
+    printf("%d", mindiff(arr, n));
 }
